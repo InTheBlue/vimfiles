@@ -36,3 +36,6 @@ if has("gui_running")
   set guioptions-=T
 endif
 
+syntax enable
+set background=dark
+colorscheme solarized
