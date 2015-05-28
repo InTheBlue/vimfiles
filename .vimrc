@@ -73,3 +73,5 @@ set colorcolumn=85
 inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
+
+nnoremap <leader>ev <C-w><C-v><C-l>:e ~\vimfiles\.vimrc<cr>
