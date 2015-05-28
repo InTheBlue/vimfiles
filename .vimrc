@@ -88,3 +88,13 @@ nnoremap <leader>ev <C-w><C-v><C-l>:e ~\vimfiles\.vimrc<cr>
 
 "Use jj to escape to normal mode
 inoremap jj <ESC>
+
+"Working with splits
+"Open v-split and switch to it
+nnoremap <leader>w <C-w>v<C-w>l
+
+"Remap default split nav keys to remove C-w prefix
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
