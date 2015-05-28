@@ -75,3 +75,4 @@ nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
 
 nnoremap <leader>ev <C-w><C-v><C-l>:e ~\vimfiles\.vimrc<cr>
+inoremap jj <ESC>
