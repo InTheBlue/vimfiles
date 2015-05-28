@@ -64,3 +64,8 @@ inoremap <left> <nop>
 inoremap <right> <nop>
 nnoremap j gj
 nnoremap k gk
+
+set wrap
+set textwidth=79
+set formatoptions=qrn1
+set colorcolumn=85
