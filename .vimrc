@@ -28,3 +28,11 @@ set ruler
 set backspace=indent,eol,start
 set laststatus=2
 set relativenumber
+
+if has("gui_running")
+  " Set a nicer font.
+  set guifont=Anonymous_Pro:h10:cDEFAULT
+  " Hide the toolbar.
+  set guioptions-=T
+endif
+
