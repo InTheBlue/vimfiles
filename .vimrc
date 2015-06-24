@@ -105,3 +105,5 @@ set statusline+=%{fugitive#statusline()}\
 
 "Nerdtree
 map <leader>n :NERDTreeToggle<CR>
+
+nnoremap <leader>b :buffers<CR>:buffer<Space>
